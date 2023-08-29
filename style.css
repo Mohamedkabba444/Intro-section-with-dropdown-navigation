@@ -249,7 +249,8 @@ section article {
   flex-direction: column;
   gap: 3em;
 }
-section article .title {
+section article .title {  
+  mix-width: 550px;
   color: var(--color-700);
   font-weight: var(--fw-bold);
   font-size: var(--fs-700);
@@ -349,7 +350,8 @@ section article .icons {
     gap: 2em;
   }
   section article .title {
-    font-size: calc(var(--fs-300) + 2.6em);
+    font-size: calc(var(--fs-300) + 2.6em);  
+    min-width: max-content;
   }
   section article .description {
     font-size: calc(var(--fs-200) + 0.1em);
