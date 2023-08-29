@@ -39,8 +39,7 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
+ul, ol {
   list-style: none;
 }
 
@@ -256,7 +255,6 @@ section article .title {
   font-weight: var(--fw-bold);
   font-size: var(--fs-700);
   line-height: 1;
-  margin-top: 13px;
 }
 section article .description {
   color: var(--color-400);
@@ -374,16 +372,12 @@ section article .icons {
   .list-items .sub-menu-features {
     background-color: transparent;
     box-shadow: 0px 0px 0px transparent;
-    left: 15%;
     width: max-content;
     display: none;
   }
-  .list-items .sub-menu-company {
-    left: 32%;
-  }
+
   .list-items li:hover .sub-menu-company,
   .list-items li:hover .sub-menu-features {
-    display: block;
     position: static;
   }
 }
