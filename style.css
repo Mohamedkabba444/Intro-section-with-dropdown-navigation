@@ -350,7 +350,7 @@ section article .icons {
     gap: 2em;
   }
   section article .title {
-    font-size: calc(var(--fs-00) + 2.8em);
+    font-size: calc(var(--fs-300) + 2.6em);
   }
   section article .description {
     font-size: calc(var(--fs-200) + 0.1em);
