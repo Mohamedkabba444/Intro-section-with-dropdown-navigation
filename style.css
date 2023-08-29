@@ -250,11 +250,9 @@ section article {
   gap: 3em;
 }
 section article .title {
-  max-width: 500px;
   color: var(--color-700);
   font-weight: var(--fw-bold);
   font-size: var(--fs-700);
-  word-break: normal;
   line-height: 1;
 }
 section article .description {
