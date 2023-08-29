@@ -126,7 +126,7 @@ header .flex-container {
 header .navigation-menu .list-items {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
   gap: var(--gap);
 }
 
@@ -238,7 +238,6 @@ header .header-btns .register-btn {
 section {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 7em;
 
   padding: 2em 7em;
@@ -250,7 +249,7 @@ section article {
   gap: 3em;
 }
 section article .title {  
-  width: 550px;
+  max-width: calc(350px + 200px);
   color: var(--color-700);
   font-weight: var(--fw-bold);
   font-size: var(--fs-700);
@@ -349,9 +348,8 @@ section article .icons {
     padding-inline: 1em;
     gap: 2em;
   }
-  section article .title {
-    font-size: calc(var(--fs-300) + 2.6em);  
-    width: max-content;
+  section article .title {  
+    font-size: calc(var(--fs-300) + 0.7em); 
   }
   section article .description {
     font-size: calc(var(--fs-200) + 0.1em);
@@ -363,7 +361,7 @@ section article .icons {
 
   section article .icons {
     gap: var(--gap);
-    margin-bottom: 3em;
+    margin-bottom: 2em;
   }
   section article .icons img {
     width: 100%;
@@ -376,7 +374,6 @@ section article .icons {
     width: max-content;
     display: none;
   }
-
   .list-items li:hover .sub-menu-company,
   .list-items li:hover .sub-menu-features {
     position: static;
